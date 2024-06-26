@@ -52,6 +52,19 @@ export default tseslint.config(
                 'error',
                 'type-annotation',
             ],
+            '@typescript-eslint/restrict-template-expressions': [
+                'warn',
+                {
+                    allowAny: false,
+                    allowArray: false,
+                    allowBoolean: true,
+                    allowNever: false,
+                    allowNullish: true,
+                    allowNumber: true,
+                    allowRegExp: true,
+                },
+            ],
+            '@typescript-eslint/no-base-to-string': 'warn',
         },
     },
 ) as tseslint.ConfigWithExtends;
