@@ -1,0 +1,36 @@
+{
+    "name": "@choi-jack/eslint-config",
+    "version": "0.0.0",
+    "description": "ESLint configuration for developers proficient in TypeScript.",
+    "files": [
+        "./dist"
+    ],
+    "type": "module",
+    "exports": "./dist/index.js",
+    "engines": {
+        "node": ">=16"
+    },
+    "scripts": {
+        "prebuild": "npm run clean",
+        "build": "tsc -p ./tsconfig.build.json",
+        "clean": "rimraf --glob ./dist ./*.tgz",
+        "version": "conventional-changelog -p angular -i CHANGELOG.md -s && git add CHANGELOG.md",
+        "prepack": "npm run build"
+    },
+    "author": "choi-jack <choi.jaehyeok@outlook.com>",
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/choi-jack/eslint-config.git"
+    },
+    "devDependencies": {
+        "@eslint/js": "^9.5.0",
+        "@stylistic/eslint-plugin": "^2.3.0",
+        "@tsconfig/node20": "^20.1.4",
+        "@types/eslint__js": "^8.42.3",
+        "conventional-changelog-cli": "^5.0.0",
+        "eslint": "^8.57.0",
+        "typescript": "^5.5.2",
+        "typescript-eslint": "^7.14.1"
+    }
+}
