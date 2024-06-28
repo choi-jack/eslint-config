@@ -65,6 +65,12 @@ export default tseslint.config(
                 },
             ],
             '@typescript-eslint/no-base-to-string': 'warn',
+            '@typescript-eslint/no-explicit-any': [
+                'error',
+                {
+                    ignoreRestArgs: true,
+                },
+            ],
         },
     },
 ) as tseslint.ConfigWithExtends;
