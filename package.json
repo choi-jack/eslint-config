@@ -1,6 +1,6 @@
 {
     "name": "@choi-jack/eslint-config",
-    "version": "0.1.2",
+    "version": "0.1.3",
     "description": "ESLint configuration for developers proficient in TypeScript.",
     "files": [
         "./dist"

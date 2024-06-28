@@ -1,3 +1,12 @@
+## [0.1.3](https://github.com/choi-jack/eslint-config/compare/v0.1.2...v0.1.3) (2024-06-28)
+
+
+### Features
+
+* Add rule `no-explicit-any` ([3093915](https://github.com/choi-jack/eslint-config/commit/3093915dad62997fc8c783bb8fa3feca8c23d315))
+
+
+
 ## [0.1.2](https://github.com/choi-jack/eslint-config/compare/v0.1.1...v0.1.2) (2024-06-26)
 
 
