@@ -1,3 +1,12 @@
+## [0.1.4](https://github.com/choi-jack/eslint-config/compare/v0.1.3...v0.1.4) (2024-07-04)
+
+
+### Bug Fixes
+
+* Fix types ([7977c14](https://github.com/choi-jack/eslint-config/commit/7977c1493e5268bd1ec0e60350d672edebec8ca3))
+
+
+
 ## [0.1.3](https://github.com/choi-jack/eslint-config/compare/v0.1.2...v0.1.3) (2024-06-28)
 
 
