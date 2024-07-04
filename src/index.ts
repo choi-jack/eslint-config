@@ -1,6 +1,6 @@
 import eslint from '@eslint/js';
 import stylistic from '@stylistic/eslint-plugin';
-import tseslint from 'typescript-eslint';
+import * as tseslint from 'typescript-eslint';
 
 export default tseslint.config(
     eslint.configs.recommended,
@@ -73,4 +73,4 @@ export default tseslint.config(
             ],
         },
     },
-) as tseslint.ConfigWithExtends;
+) as ReadonlyArray<tseslint.ConfigWithExtends>;
