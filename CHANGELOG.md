@@ -1,3 +1,12 @@
+## [0.1.5](https://github.com/choi-jack/eslint-config/compare/v0.1.4...v0.1.5) (2024-07-16)
+
+
+### Features
+
+* Add rule `no-console`, `no-invalid-void-type` ([3a41ff2](https://github.com/choi-jack/eslint-config/commit/3a41ff2bf6aa02c6dfc1d56fc56e7d640663f765))
+
+
+
 ## [0.1.4](https://github.com/choi-jack/eslint-config/compare/v0.1.3...v0.1.4) (2024-07-04)
 
 
