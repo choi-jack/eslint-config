@@ -20,6 +20,7 @@ export default tseslint.config(
     }) as tseslint.ConfigWithExtends,
     {
         rules: {
+            'no-console': 'error',
             '@typescript-eslint/array-type': [
                 'error',
                 {
@@ -71,6 +72,7 @@ export default tseslint.config(
                     ignoreRestArgs: true,
                 },
             ],
+            '@typescript-eslint/no-invalid-void-type': 'off',
         },
     },
 ) as ReadonlyArray<tseslint.ConfigWithExtends>;
