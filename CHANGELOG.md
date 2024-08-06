@@ -1,3 +1,12 @@
+# [0.2.0](https://github.com/choi-jack/eslint-config/compare/v0.1.5...v0.2.0) (2024-08-06)
+
+
+### Features
+
+* Update dependencies ([da38a6f](https://github.com/choi-jack/eslint-config/commit/da38a6fc04ec20a41d2ac670ea5826b2c106f3b2))
+
+
+
 ## [0.1.5](https://github.com/choi-jack/eslint-config/compare/v0.1.4...v0.1.5) (2024-07-16)
 
 
