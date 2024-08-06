@@ -6,18 +6,21 @@ export default tseslint.config(
     eslint.configs.recommended,
     ...tseslint.configs.strictTypeChecked,
     ...tseslint.configs.stylisticTypeChecked,
-    {
-        languageOptions: {
-            parserOptions: {
-                project: true,
-            },
-        },
-    },
     stylistic.configs.customize({
         arrowParens: true,
         indent: 4,
         semi: true,
     }) as tseslint.ConfigWithExtends,
+    {
+        languageOptions: {
+            parserOptions: {
+                projectService: {
+                    allowDefaultProject: ['*.js'],
+                    defaultProject: './tsconfig.json',
+                },
+            },
+        },
+    },
     {
         rules: {
             'no-console': 'error',
