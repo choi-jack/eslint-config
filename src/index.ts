@@ -76,6 +76,7 @@ export default tseslint.config(
                 },
             ],
             '@typescript-eslint/no-invalid-void-type': 'off',
+            '@typescript-eslint/no-unnecessary-type-parameters': 'error',
         },
     },
 ) as ReadonlyArray<tseslint.ConfigWithExtends>;
