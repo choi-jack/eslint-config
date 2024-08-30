@@ -1,3 +1,12 @@
+## [0.2.2](https://github.com/choi-jack/eslint-config/compare/v0.2.1...v0.2.2) (2024-08-30)
+
+
+### Features
+
+* Change rule `no-unnecessary-type-parameters` ([f72cd1e](https://github.com/choi-jack/eslint-config/commit/f72cd1e3df6291d07848a5b79c16e49e15f3e225))
+
+
+
 ## [0.2.1](https://github.com/choi-jack/eslint-config/compare/v0.2.0...v0.2.1) (2024-08-30)
 
 
